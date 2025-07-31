@@ -28,45 +28,6 @@ GitHub
 Teal
 +2
 
-📸 App Screenshots
-Preview of the match report UI, keyword alignment, and score breakdown
-
-Sample match rate and missing keyword visualization
-
-CLI output examples with highlighted suggestions
-
-Optional demo interface using Markdown or PDF exports
-
-⚙️ Installation Steps
-bash
-Copy
-Edit
-# Clone this repo
-git clone https://github.com/your‑username/resume-job-matcher.git
-cd resume-job-matcher
-
-# Create a virtual environment and install dependencies
-python3 -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-pip install -r requirements.txt
-
-# Setup API keys in `.env`
-cp .env-example .env
-# Add your OPENAI_API_KEY or ANTHROPIC_API_KEY
-🚀 Quick Start
-bash
-Copy
-Edit
-# Run matcher with resume and job description
-python resume_matcher.py \
-  --resume path/to/your_resume.pdf \
-  --description path/to/job_description.txt \
-  --output match_result.md
-Outputs:
-
-match_result.md: full report with match score, keyword alignment, improvement tips
-
-Optional CSV/JSON reports or colored terminal output
 
 📊 How It Works
 Parses resume & job description using PyPDF2 or text loader
@@ -135,7 +96,7 @@ Saves time—tailor your resume dynamically per job posting
 Offers objective scoring and structured feedback
 
 🤝 Contributions & Roadmap
-We welcome contributions! Planned enhancements include:
+I welcome contributions! Planned enhancements include:
 
 Graphical web interface or Streamlit dashboard
 
