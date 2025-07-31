@@ -1,4 +1,5 @@
 🎯 Resume Job Matcher
+
 An AI‑powered resume‑to‑job description matching tool built in Python—ideal for job seekers and recruiters wanting to guarantee maximum alignment with job postings. This tool analyzes resumes using NLP and LLM APIs (OpenAI or Claude), scores compatibility, and offers tailored suggestions for improvement. 
 recruitRyte
 +14
