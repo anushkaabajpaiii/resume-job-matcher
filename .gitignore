@@ -1,0 +1,6 @@
+# Ignore src and out folders
+src/
+out/
+.DS_Store
+job_description.txt
+job_description_enhanced.txt
